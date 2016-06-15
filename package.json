@@ -1,0 +1,55 @@
+{
+  "name": "parse-zonetab",
+  "version": "1.0.0",
+  "description": "Parse zone.tab file",
+  "repository": "shinnn/parse-zonetab",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "parse",
+    "extract",
+    "latest",
+    "tz",
+    "time",
+    "zone",
+    "zones",
+    "timezone",
+    "timezones",
+    "list",
+    "data",
+    "database",
+    "iana",
+    "code",
+    "country",
+    "country-code",
+    "coordinate",
+    "coordinates",
+    "id",
+    "identifier",
+    "identifiers",
+    "array"
+  ],
+  "dependencies": {
+    "neat-csv": "^2.1.0",
+    "parse-tzdata-coordinate": "^1.0.0",
+    "to-fast-properties": "^1.0.2"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^2.0.0",
+    "array-difference": "0.0.1",
+    "eslint": "^2.12.0",
+    "get-zonetab": "^1.0.0",
+    "istanbul": "^0.4.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1",
+    "universal-deep-strict-equal": "^1.2.1"
+  }
+}
