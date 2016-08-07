@@ -3,8 +3,8 @@
 [![NPM version](https://img.shields.io/npm/v/parse-zonetab.svg)](https://www.npmjs.com/package/parse-zonetab)
 [![Build Status](https://travis-ci.org/shinnn/parse-zonetab.svg?branch=master)](https://travis-ci.org/shinnn/parse-zonetab)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/parse-zonetab.svg)](https://coveralls.io/github/shinnn/is-gist-starred?branch=master)
-[![Dependency Status](https://david-dm.org/shinnn/parse-zonetab.svg)](https://david-dm.org/shinnn/parse-zonetab)
-[![devDependency Status](https://david-dm.org/shinnn/parse-zonetab/dev-status.svg)](https://david-dm.org/shinnn/parse-zonetab#info=devDependencies)
+[![dependencies Status](https://david-dm.org/shinnn/parse-zonetab/status.svg)](https://david-dm.org/shinnn/parse-zonetab)
+[![devDependencies Status](https://david-dm.org/shinnn/parse-zonetab/dev-status.svg)](https://david-dm.org/shinnn/parse-zonetab?type=dev)
 
 A [Node](https://nodejs.org/) module to parse [zone.tab](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) file
 
